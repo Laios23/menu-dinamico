@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  display: block;
+}

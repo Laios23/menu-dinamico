@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "nombre": "Inicio",
+      "enlace": "#"
+    },
+    {
+      "id": 2,
+      "nombre": "Servicios",
+      "submenu": [
+        {
+          "id": 21,
+          "nombre": "Desarrollo Web",
+          "enlace": "#"
+        },
+        {
+          "id": 22,
+          "nombre": "Soporte Técnico",
+          "enlace": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Nosotros",
+      "enlace": "#"
+    },
+    {
+      "id": 4,
+      "nombre": "Contacto",
+      "enlace": "#"
+    }
+  ]
+}
